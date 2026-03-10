@@ -71,8 +71,8 @@ ea.subset(obj, "year", 2001)
 #> # A tibble: 2 × 3
 #>    year temp_c_value group
 #>   <int>        <dbl> <chr>
-#> 1  2001      -0.0526 A    
-#> 2  2001       0.468  B    
+#> 1  2001       -1.63  A    
+#> 2  2001       -0.522 B    
 #> 
 
 # Filter for specific groups
@@ -105,8 +105,8 @@ ea.subset(obj, "group", "B")
 #> # A tibble: 3 × 3
 #>    year temp_c_value group
 #>   <int>        <dbl> <chr>
-#> 1  2000       -0.914 B    
-#> 2  2001        0.468 B    
-#> 3  2002        0.363 B    
+#> 1  2000      -1.86   B    
+#> 2  2001      -0.522  B    
+#> 3  2002      -0.0526 B    
 #> 
 ```
